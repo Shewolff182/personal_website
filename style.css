@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+.header-container {
+    color: aqua;
+    background-color: transparent;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+} 
+.header {
+    border: 1px solid aqua;
+    width: 900px;
+    text-align: center; 
+}
+.name {
+    font-family: 'Srisakdi', cursive;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.job{
+    font-family: 'Laila', serif;
+    font-size: 27px;
+    font-weight: bold;
+}
+body{
+    background-image: url("imageSA/Background.jpg");
+    background-size: contain;
+}
+.fa {
+    padding: 20px;
+    font-size: 35px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: aqua;
+}
+.transform {
+    transform: perspective(300px) rotateY(25deg) scale(1.8);
+    transition-timing-function: ease-in;
+    transition: all, 0.5s;
+  }
+.body-container {
+    display: flex;
+    justify-content: center;
+} 
+.photo img {
+    display: flex;
+    background-color: transparent;
+    width: 600px;
+    justify-content: center;
+    padding: 23px;
+    border: solid aqua;
+}
+.techSkills{
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+    padding: 23px;
+    width: 300px;
+    border: solid aqua;
+    font-size: 23px;
+    color: aqua;
+    font-weight: bolder;
+    flex-direction: column;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    font-family: 'Srisakdi', cursive;
+    font-size: 27px;
+    font-weight: bold;
+}
+li{
+    display: flex;
+    justify-content: center;
+    font-family: 'Laila', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.button {
+    background-color:  black;
+    border: solid aqua;
+    color: aqua;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#repo {
+    display:flex;
+    justify-content: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+
